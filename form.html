@@ -1,0 +1,53 @@
+/*필수 : text, radio, checkbox, select, date, textarea
+● 선택 : fieldset, legend, optgroup, color, datalis*/
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <p>이름이 무엇인가요?</p>
+        <input type="text" placeholder="이름"/><br><br><br>
+
+        <p>본인을 포함한 형제 자매가 몇 명인가요?</p>
+        <input type="radio" name="grade" id="1" value="1명"/>
+        <label for="1">1명</label><br>
+        <input type="radio" name="grade" id="2" value="2명"/>
+        <label for="2">2명</label><br>
+        <input type="radio" name="grade" id="3" value="3명"/>
+        <label for="3">3명</label><br>
+        <input type="radio" name="grade" id="4" value="4명"/>
+        <label for="4">4명 이상</label><br><br><br>
+        
+        <p>관계가 어떻게 되나요?</p>
+        <input type="checkbox" id="외동" value="외동"/>
+        <label for="외동">외동</label><br>
+        <input type="checkbox" id="남자" value="남자 형제"/>
+        <label for="남자">남자 형제</label><br>
+        <input type="checkbox" id="여자" value="여자 형제"/>
+        <label for="여자">여자 형제</label><br>
+        <input type="checkbox" id="쌍둥이" value="쌍둥이 형제"/>
+        <label for="쌍둥이">쌍둥이</label><br><br><br>
+        
+        <p>본인의 위치와 힘든 점은 무엇인가요?</p>
+        <select>
+            <option>외동</option>
+            <option>첫째</option>
+            <option>둘째(사이에 낀 입장)</option>
+            <option>막내</option>
+        </select><br><br>
+        <textarea placeholder="이유"></textarea><br><br><br>
+        
+        <p>당신의 생일은 언제인가요?</p>
+        <input type="date"/><br><br><br>
+        
+        <input type="submit"/>
+
+    </form>
+</body>
+</html>
