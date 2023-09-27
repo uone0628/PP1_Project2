@@ -1,0 +1,102 @@
+.whole {
+    position: absolute ;
+    padding: 10px ;
+    border-radius: 10px ;
+    background-color: #d14836 ;
+    width: 97.4% ;
+    height: 95% ;
+}
+
+h1 {
+    color: white ;
+}
+
+a, h2, h3 {
+    color: #d14836 ;
+}
+
+.top {
+    color: #ffffff ;
+    padding: 15px ;
+    font-size: 30px ;
+    line-height: 26px ;
+}
+
+.top h1 {
+    margin: 0 ;
+    line-height: 50px ;
+}
+
+.contents {
+    padding: 10px ;
+    background-color: #ffffff ;
+    font: 80% Verdana ;
+}
+
+.side {
+    background-color: #F6DAD7 ;
+    color: #d14836 ;
+    padding: 10px ;
+}
+
+.menulist {
+    padding: 0 ;
+    font: 16px verdana ;
+}
+
+.menubar {
+    width: 190px ;
+    float: right ;
+}
+
+#white {
+    color: white ;
+}
+
+.bottom {
+    font-size: 10px ;
+}
+
+.menuitem {
+    width: 155px ;
+    background-color: #d14836 ;
+    border: 1px solid #d14836 ;
+    border-radius: 40px ;
+    color: #ffffff ;
+    list-style-type: none ;
+    margin: 10px ;
+    padding: 5px ;
+    text-align: center ;
+    cursor: pointer ;
+}
+
+.menuitem:nth-child(2) {
+    background-color: white ;
+    color: #d14836 ;
+    font-weight: bold ;
+}
+
+.menuitem:hover {
+    background-color: #ffffff ;
+    color:#d14836 ;
+}
+
+a {
+    color: #d14836 ;
+    text-decoration: none ;
+}
+
+.bottom {
+    text-align: center ;
+    padding: 10px ;
+    font-size: 70% ;
+    color: #ffffff ;
+}
+
+.menu {
+    color: white ;
+}
+
+.menu:hover {
+    color:#d14836 ;
+}

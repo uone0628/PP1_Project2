@@ -3,37 +3,39 @@
 
 <head>
     <meta charset="UTF-8">
+    <link href="style1.css" rel="stylesheet" type="text/css" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 
 <body>
-    <div>
-        <div>
+    <div class="container">
+        <div id="top">
             <h1>Welcome to Yuwon's Homepage(22200492)</h1>
             <p>Use the menu to select different Stylesheets</p>
-            <ul>
-                <li>Stylesheet 1</li>
-                <li>Stylesheet 2</li>
-                <li>Stylesheet 3</li>
-                <li>Stylesheet 4</li>
-                <li>No Stylesheet</li>
-            </ul>
         </div>
-        <div>
+        <div class="wrapper">
+            <div class="menubar">
+                <li class="menuitem"><a href="style1.html">Stylesheet 1</a></li>
+                <li class="menuitem"><a href="style2.html">Stylesheet 2</a></li>
+                <li class="menuitem">Stylesheet 3</li>
+                <li class="menuitem">Stylesheet 4</li>
+                <li class="menuitem"><a href="nostyle.html">No Stylesheet</a></li>
+            </div>
+
+        <div id="main">
+            <div class="content">
             <h1>Same Page Different Stylesheets</h1>
             <p>This is a demonstration of how different stylesheets can change the layout of your HTML page. You can
                 change the layout
                 of this page by selecting different stylesheets in the menu, or by selecting one of the following links:
                 <br>
-                <a href="style1.html" >Stylesheet1</a>,
-                <a href="style2.html" >Stylesheet2</a>,
-                <a href="style3.html" >Stylesheet3</a>,
-                <a href="style4.html" >Stylesheet4</a>.
+                <a href="style1.html">Stylesheet1</a>,
+                <a href="style2.html">Stylesheet2</a>,
+                <a href="#">Stylesheet3</a>,
+                <a href="#">Stylesheet4</a>.
             </p>
-        </div>
-        <div>
             <h2>No Styles</h2>
             <p>This page uses DIV elements to group different sections of the HTML page. Click here to see how the page
                 looks like with
@@ -42,12 +44,19 @@
                 <a href="nostyle.html">No Stylesheet</a>.
                 <br>
             </p>
+            </div>
         </div>
-        <div>
+
+        <div id="sidebar">
             <h3>Side-Bar</h3>
             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
                 laoreet dolore
-                magna aliquam erat volutpat.</p>
+                magna aliquam erat volutpat.
+            </p>
+        </div>
+        </div>
+        
+        <div id="bottom">
             <p>
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
                 laoreet dolore
@@ -57,7 +66,8 @@
                 molestie
                 consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim
                 qui blandit
-                praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+                praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+            </p>
         </div>
     </div>
 </body>
